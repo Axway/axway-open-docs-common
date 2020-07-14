@@ -1,6 +1,3 @@
-[submodule "themes/3587df0b5d19e32559c5c792fb381e099c9e1d7a"]
-	path = themes/3587df0b5d19e32559c5c792fb381e099c9e1d7a
-	url = git@github.com:google/docsy.git
 [submodule "themes/docsy"]
 	path = themes/docsy
 	url = git@github.com:google/docsy.git
