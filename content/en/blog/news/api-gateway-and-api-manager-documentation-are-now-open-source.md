@@ -6,11 +6,11 @@ description: >-
   API Gateway and API Manager documentation has now been migrated to
   Axway-Open-Docs!
 ---
-We are very excited to announce the availability of the latest version of API Gateway and API Manager documentation in our open source docs-as-code workflow! Following on from [Open source documentation is here for AMPLIFY Central and API Portal](/blog/2019/09/18/open-source-documentation-is-here-for-amplify-central-and-api-portal/) we have now migrated all of the API Gateway and API Manager content as well (except for a few low priority guides which will follow later).
+We are very excited to announce the availability of the latest version of API Gateway and API Manager documentation in our open source docs-as-code workflow! Following on from [Open source documentation is here for Amplify Central and API Portal](/blog/2019/09/18/open-source-documentation-is-here-for-amplify-central-and-api-portal/) we have now migrated all of the API Gateway and API Manager content as well (except for a few low priority guides which will follow later).
 
 ## What does this mean for you?
 
-Anyone can now propose changes to any topic in the AMPLIFY API Management or AMPLIFY Central documentation using a quick and easy process. All you need is a [GitHub](https://github.com/join) account.
+Anyone can now propose changes to any topic in the Amplify API Management or Amplify Central documentation using a quick and easy process. All you need is a [GitHub](https://github.com/join) account.
 
 To get started go to [Documentation](/docs/).
 
