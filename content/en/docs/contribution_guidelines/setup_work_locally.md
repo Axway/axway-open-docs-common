@@ -68,31 +68,31 @@ Press Enter when prompted for a path and a passphrase. You can find more detaile
 
 4. Copy and paste the key from your WSL terminal to the **Key** text box on GitHub and enter a memorable name for the key in the **Title** field. Click **Add SSH key** to save it.
 
-### Fork or clone the Axway-Open-Docs Git repository
+### Fork or clone the Axway Git repository
 
-You have two options to clone the the [axway-open-docs Git repo](https://github.com/Axway/axway-open-docs) to your local machine:
+You have two options to clone the the Axway repository to your local machine:
 
-1. Clone the Axway-Open-Docs repository directly. This requires that you have write permissions on the repository to make any changes.
-2. Fork (make a copy) of the Axway-Open-Docs repository in your personal GitHub account and clone the fork. To fork the repository, follow the steps in [Fork a repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo).
+1. Clone the Axway repository directly. This requires that you have write permissions on the repository to make any changes.
+2. Fork (make a copy) of the Axway repository in your personal GitHub account and clone the fork. To fork the repository, follow the steps in [Fork a repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo).
 
-To clone the Axway-Open-Docs repository directly, enter the following commands in WSL:
-
-```
-cd ~
-git clone git@github.com:Axway/axway-open-docs.git
-```
-
-If you have forked the Axway-Open-Docs repository, enter the following commands to clone your _fork_ of the repo instead:
+To clone the Axway repository directly, enter the following commands in WSL:
 
 ```
 cd ~
-git clone git@github.com:YOUR-USERNAME/axway-open-docs.git
+git clone git@github.com:Axway/AXWAY-REPOSITORY.git
+```
+
+If you have forked the Axway repository, enter the following commands to clone your _fork_ of the repo instead:
+
+```
+cd ~
+git clone git@github.com:YOUR-USERNAME/AXWAY-REPOSITORY.git
 ```
 
 After running these commands, you will have a local copy of the repository in the following location:
 
 ```
-/home/YOUR-UNIX-USERNAME/axway-open-docs
+/home/YOUR-UNIX-USERNAME/AXWAY-REPOSITORY.git
 ```
 
 ### Install Hugo
@@ -148,7 +148,7 @@ See [Node.js Binary Distributions](https://github.com/nodesource/distributions/b
 Run the `build.sh` script to build your site locally:
 
 ```
-cd ~/axway-open-docs/
+cd ~/AXWAY-REPOSITORY/
 ./build.sh
 ```
 
@@ -176,10 +176,10 @@ Install `git-secrets` on your repository to prevent committing secrets and crede
 
 To install `git-secrets`:
 
-1. Open an Ubuntu WSL window, and change the directory to `axway-open-docs`:
+1. Open an Ubuntu WSL window, and change the directory to the root directory of your Axway repository:
 
     ```
-    cd axway-open-docs
+    cd AXWAY-REPOSITORY
     ```
 
 2. Run the script. You will be asked for your Ubuntu password:

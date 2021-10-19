@@ -4,7 +4,7 @@ linkTitle: "Maintain and customize"
 weight: 5
 date: 2019-07-11
 description: >
-  Understand how to maintain and customize the Axway-Open-Docs website.
+  Understand how to maintain and customize the Axway Open Docs website.
 ---
 
 {{% alert title="Note" %}}
@@ -37,14 +37,14 @@ This following configuration files can be found in the site root:
 
 ## Update the Docsy theme
 
-This site uses the [Docsy theme](https://www.docsy.dev/) for Hugo documentation sites. To avail of new features added to the Docsy theme, you must update the theme submodule in the Axway-Open-Docs Git project.
+This site uses the [Docsy theme](https://www.docsy.dev/) for Hugo documentation sites. To use new features added to the Docsy theme, you must update the theme submodule in the Axway repository Git project.
 
 The Docsy theme is installed in this site's Git repo as a Git submodule. To update the theme with the latest commits from the [Docsy GitHub repo](https://github.com/google/docsy):
 
 1. In Git CLI, navigate to the root of the local repo and checkout **master**. For example:
 
     ```
-    cd axway-open-docs
+    cd AXWAY-REPOSITORY
     git checkout master
     ```
 
@@ -79,7 +79,7 @@ It is not necessary to update the Netlify configuration file with the Docsy vers
 
 ## Update Hugo version for building on Netlify
 
-This site uses the [Hugo static site generator](https://gohugo.io/) to generate a HTML website from Markdown source. To avail of new features added to Hugo, you must update the Hugo version that is used to build the site on Netlify.
+This site uses the [Hugo static site generator](https://gohugo.io/) to generate a HTML website from Markdown source. To use new features added to Hugo, you must update the Hugo version that is used to build the site on Netlify.
 
 To use a later version of Hugo to build the site on Netlify, change the `HUGO_VERSION` environment variable in the `netlify.toml` configuration file:
 

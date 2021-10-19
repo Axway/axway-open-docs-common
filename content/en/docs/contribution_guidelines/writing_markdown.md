@@ -1,10 +1,10 @@
 ---
-title: "Markdown guidelines for Axway-Open-Docs"
+title: "Markdown guidelines for Axway Open Docs"
 linkTitle: "Markdown guidelines"
 weight: 1
 date: 2019-07-30
 description: >
-  Markdown guidelines and Markdown extensions available for Axway-Open-Docs.
+  Markdown guidelines and Markdown extensions available for Axway Open Docs.
 ---
 
 This docs-as-code implementation uses the [Hugo](https://gohugo.io/) static site generator and the Google [Docsy theme](https://www.docsy.dev/) to build this website from the Markdown content files. Hugo uses [Goldmark](https://github.com/yuin/goldmark/) to parse Markdown, which is [CommonMark compliant](https://gohugo.io/news/0.60.0-relnotes/).
@@ -15,7 +15,7 @@ If you are contributing using GitHub or Git CLI, use these guidelines to ensure 
 
 If you are editing Markdown locally, we recommend using VSCode with the [`markdownlint` extension](https://github.com/DavidAnson/vscode-markdownlint).
 
-The custom configuration for `markdownlint` is contained in the file `.markdownlint.json` at the root of the [Axway-Open-Docs repository](https://github.com/Axway/axway-open-docs). To load this configuration by default, always open the root folder (`axway-open-docs`) in VSCode.
+The custom configuration for `markdownlint` is contained in the file `.markdownlint.json` at the root of the Axway repository. To load this configuration by default, always open the root folder of the repository in VSCode.
 
 ## Tips and tricks
 
@@ -44,7 +44,7 @@ This is more text
 Best practices:
 
 * Do not use H1 headings (`##`) in your Markdown, as the title of the page becomes the H1.
-* Do not skip heading levels, that is, do not follow a H2 with a H4.
+* Do not skip heading levels, that is, do not follow an H2 with an H4.
 * Do not use bold or other formatting for headings.
 
 ### Emphasis
@@ -136,13 +136,13 @@ Add new images to the `static/Images` folder in the project, but note that the p
 
 ### HTML
 
-We do not allow any HTML tags within Markdown contributions, as HTML tags can be used in security attacks.
+We allow minimal HTML tags in Markdown contributions, as HTML tags can be used in security attacks. Allowed HTML is specified in the `markdownlint.json` file in the repo's root directory. For example, `'MD033': { 'allowed_elements': [ 'a', 'br', ] }`
 
 ### Tables
 
 Markdown has limited support for tables. We support only pipe tables as described in [Tables](https://www.markdownguide.org/extended-syntax/#tables).
 
-Table cells cannot contain multiple paragraphs, or code blocks, or lists. If you require a more complex table, consider using lists or alternative formatting instead.
+Table cells cannot contain code blocks or lists. If you require a more complex table, consider using lists or alternative formatting instead.
 
 If you have a simple table from another source (for example, Microsoft Excel) that you want to use in Markdown format, we recommend the [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables).
 

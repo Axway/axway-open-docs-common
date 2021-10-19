@@ -7,13 +7,13 @@ description: >
     To avoid issues when sending a pull request, make sure that your fork is up to date with the upstream repository before contributing to the documentation.
 ---
 
-The first time you make a contribution to the documentation by way of GitHub or Netlify CMS, this creates a copy (fork) of the [axway-open-docs](https://github.com/Axway/axway-open-docs) repository in your GitHub account.
+The first time you make a contribution to the documentation using GitHub or Netlify CMS, a copy (fork) of the Axway repository is created in your GitHub account.
 
 Since there are other users collaborating with Axway documentation, it is highly likely that your fork will quickly fall behind the upstream repository and you might encounter conflicts the next time you try to send a pull request.
 
-To avoid issues when sending a pull request, you can [delete and recreate](#delete-and-recreate-your-fork) using the GitHub UI, or [synchronize](#sync-your-fork) your fork using Git CLI, before starting a new contribution.
+To avoid issues when sending a pull request, you can [delete and recreate](#delete-and-recreate-your-fork) your fork using the GitHub UI, or [synchronize](#sync-your-fork) your fork using Git CLI, before starting a new contribution.
 
-{{< alert title="Note" color="primary">}} You do not need to sync your fork if you are working exclusively from Netlify CMS, as Netlify CMS creates the new branch based on master from the upstream repository.{{< /alert >}}
+{{< alert title="Note" color="primary">}} You do not need to sync your fork if you are working exclusively from the Netlify CMS, as Netlify CMS creates the new branch based on master from the upstream repository.{{< /alert >}}
 
 ## Delete and recreate your fork
 
@@ -21,7 +21,7 @@ To avoid issues when sending a pull request, you can [delete and recreate](#dele
 
 To delete and recreate your fork before you make a new contribution:
 
-1. Go to your `axway-open-docs` fork on GitHub, and click **Settings**
+1. Go to your Axway repository fork on GitHub, and click **Settings**
 
     ```
     https://github.com/YOUR-USERNAME/axway-open-docs
