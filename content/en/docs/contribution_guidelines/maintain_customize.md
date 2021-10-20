@@ -1,21 +1,21 @@
 ---
-title: "Maintain and customize Axway-Open-Docs website"
+title: "Maintain and customize Axway Open Docs website"
 linkTitle: "Maintain and customize"
 weight: 5
 date: 2019-07-11
 description: >
-  Understand how to maintain and customize the Axway Open Docs website.
+  Understand how to maintain and customize an Axway Open Docs website.
 ---
 
 {{% alert title="Note" %}}
 This topic is for documentation site maintainers only!
 {{% /alert %}}
 
-If you are a maintainer of this documentation site, this topic includes all the information you need to maintain and customize the site.
+If you are a maintainer of a documentation site, this topic includes all the information you need to maintain and customize the site.
 
 ## Before you start
 
-* Complete the steps in [Set up and work locally](/docs/contribution_guidelines/setup_work_locally/)
+* Complete the steps in [Set up and work locally](/docs/contribution_guidelines/setup_work_locally/).
 
 ## Overview of tools
 

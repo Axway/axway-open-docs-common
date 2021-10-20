@@ -4,9 +4,14 @@ linkTitle: Contribution guidelines
 no_list: true
 weight: 200
 description: |
-  How to contribute to Axway Open Docs
+  How to contribute to Axway Open Docs.
 ---
 This documentation is open source and we welcome your interest in contributing to improve the quality of our documentation.
+
+## What is Axway Open Docs
+Axway Open Docs is a docs-as-code implementation for Axway product documentation. The content is authored in Markdown, the source files are stored in a GitHub repository, and the output is built from the [Hugo[(https://gohugo.io)] static site generator with the [Google Docsy](https://github.com/google/docsy) theme. The site is deployed on Netlify and our [Axway doc portal[(https://docs.axway.com)].
+
+These guidelines are generic to be used with any Axway Open Docs product documentation. If you need details specific to the  product documentation to which you want to contribute, such as the GitHub repository and Netlify URLs, you must contact an Axway representative.
 
 ## Before you start
 
@@ -50,23 +55,23 @@ To edit an existing page:
 2. Click **Fork this repository** to create a copy ([fork](https://help.github.com/en/articles/fork-a-repo)) of the Axway repository in your GitHub account. This allows you to propose changes to a repository that you don't have write access to.
 3. Make your changes to the page in the GitHub Markdown editor.
 
-   Click the **Preview changes** tab to quickly check the formatting of your changes.
+    Click the **Preview changes** tab to quickly check the formatting of your changes.
 
-   ![Preview before creating PR](/Images/contributing/netlify_preview_beforecreating_PR.png)
+    ![Preview before creating PR](/Images/contributing/netlify_preview_beforecreating_PR.png)
 
-   This preview does not show your changes as they will appear on the live website, and is useful for quickly checking standard Markdown formatting (lists, numbering, and so on) only. You must use the Netlify deploy preview after creating a pull request to fully verify your changes.
+    This preview does not show your changes as they will appear on the live website, and is useful for quickly checking standard Markdown formatting (lists, numbering, and so on) only. You must use the Netlify deploy preview after creating a pull request to fully verify your changes.
 4. At the bottom of the page, add a meaningful message describing your change and click **Propose file change**.
 5. In the Comparing changes page, check that Axway repository is shown on the left, and that your fork is shown on the right, and then click **Create pull request**. A pull request enables project maintainers to review the changes you made on your fork and *pull* them into the original repository.
 
-   ![Compare changes and create pull request](/Images/contributing/compare_changes_pr.png)
+    ![Compare changes and create pull request](/Images/contributing/compare_changes_pr.png)
 6. Enter a title (and optionally a description) for the pull request, and click **Create pull request** again. Leave **Allow edits from maintainers** selected to enable reviewers to make editorial updates to your changes if necessary.
 
-   When you submit a pull request, this triggers a CI flow that runs some checks and builds a preview site containing your changes on Netlify. If your changes fail these checks, you will receive an email notification from GitHub. To get details of the failures and how to fix them, see [PR Run failed email notification](#pr-run-failed-email-notification).
+    When you submit a pull request, this triggers a CI flow that runs some checks and builds a preview site containing your changes on Netlify. If your changes fail these checks, you will receive an email notification from GitHub. To get details of the failures and how to fix them, see [PR Run failed email notification](#pr-run-failed-email-notification).
 7. To preview your changes exactly as they will appear on the live website, click the deploy preview link:
 
-   ![Preview your PR](/Images/contributing/netlify_preview_PR.png)
+    ![Preview your PR](/Images/contributing/netlify_preview_PR.png)
 
-   This link opens the home page of the website in the same tab. You must navigate to the page you edited. The number in the deploy preview URL corresponds to the number of the GitHub pull request.
+    This link opens the home page of the website in the same tab. You must navigate to the page you edited. The number in the deploy preview URL corresponds to the number of the GitHub pull request.
 
 ## Option 2 - Edit on Netlify CMS
 
@@ -80,20 +85,20 @@ To edit an existing page:
 2. Sign in to Netlify CMS using your GitHub account.
 3. Click **Fork the repo** to fork (create a copy) of the Axway repository in your GitHub account.
 
-   This option is shown only the first time that you make a contribution.
+    This option is shown only the first time that you make a contribution.
 4. Make your changes in the editor and click **Save**. You can quickly check the formatting in the live preview panel, on the right side.
 
-   This preview does not show all your changes exactly as they will appear on the live website, so it is best to use the Netlify deploy preview after sending your changes for review to fully verify your changes.
+    This preview does not show all your changes exactly as they will appear on the live website, so it is best to use the Netlify deploy preview after sending your changes for review to fully verify your changes.
 5. When you are finished making changes, set the status of the page to **In review**.
 
-   ![Set status to Review](/Images/contributing/netlify_setstatustoreview.png)
+    ![Set status to Review](/Images/contributing/netlify_setstatustoreview.png)
 
-   This creates a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) in the background and triggers an email notification to you and to the project maintainers who will review your changes.
+    This creates a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) in the background and triggers an email notification to you and to the project maintainers who will review your changes.
 
-   This also triggers a CI flow that runs some checks and builds a preview site containing your changes on Netlify. If your changes fail these checks, you will receive an email notification from GitHub. When using the CMS, you can ignore any failures as the project maintainers will fix them during their review.
+    This also triggers a CI flow that runs some checks and builds a preview site containing your changes on Netlify. If your changes fail these checks, you will receive an email notification from GitHub. When using the CMS, you can ignore any failures as the project maintainers will fix them during their review.
 6. To preview your changes exactly as they will appear on the live website, reload the page in the browser and click the new link **Check for Preview**. When the preview is ready, this link changes to **View Preview**.
 
-   ![Preview on CMS](/Images/contributing/cms_deploy_preview.png)
+    ![Preview on CMS](/Images/contributing/cms_deploy_preview.png)
 7. To ensure that reviewers have all the information they need to review your changes and to help speed up the reviewing process, go to the GitHub pull request (using the link received in your email) and add a comment explaining what you changed and why.
 
 ### Make further edits after sending for review
@@ -110,7 +115,7 @@ To make further changes to a page, for example, you noticed a typo:
 1. Click **Edit on Netlify CMS** on the upper right corner of any page, and then navigate to the Workflow menu.
 2. If the page was already sent for review, drag it from the **In Review** column to the **Drafts** column. This lets the reviewer know that you are still working on the page.
 
-   If the page is not listed in the **In Review** column, then it has been merged already and you will need to create a new PR to make further changes. See [Edit an existing page](#edit-an-existing-page).
+    If the page is not listed in the **In Review** column, then it has been merged already and you will need to create a new PR to make further changes. See [Edit an existing page](#edit-an-existing-page).
 3. To make further changes, click the page in the **Drafts** column to open it.
 4. When you are finished making changes, **Save** the page and set its status to **In review**.
 5. Refresh the page and click **Check for Preview/View Preview** to see your changes on the preview website.
@@ -127,7 +132,7 @@ To create a new page:
 2. Using the left navigation menu, find the section where you want to create the new page.
 3. Click **New page in... section** to create a new page in this section.
 
-   ![Create a new page](/Images/contributing/netlify_createNewPage.png)
+    ![Create a new page](/Images/contributing/netlify_createNewPage.png)
 4. Enter a title and summary for the page.
 5. Add the content for the page.
 6. **Save** the page, and set its status to **In Review**.
