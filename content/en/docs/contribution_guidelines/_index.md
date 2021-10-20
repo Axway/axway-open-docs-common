@@ -9,9 +9,9 @@ description: |
 This documentation is open source and we welcome your interest in contributing to improve the quality of our documentation.
 
 ## What is Axway Open Docs
-Axway Open Docs is a docs-as-code implementation for Axway product documentation. The content is authored in Markdown, the source files are stored in a GitHub repository, and the output is built from the [Hugo[(https://gohugo.io)] static site generator with the [Google Docsy](https://github.com/google/docsy) theme. The site is deployed on Netlify and our [Axway doc portal[(https://docs.axway.com)].
+Axway Open Docs is a docs-as-code implementation, which is used for some of Axway's product documentation. The content is authored in Markdown, the source files are stored in a GitHub repository, and the output is built from the [Hugo](https://gohugo.io) static site generator with the [Google Docsy](https://github.com/google/docsy) theme. The site is deployed on Netlify and our [Axway doc portal](https://docs.axway.com).
 
-These guidelines are generic to be used with any Axway Open Docs product documentation. If you need details specific to the  product documentation to which you want to contribute, such as the GitHub repository and Netlify URLs, you must contact an Axway representative.
+These guidelines are generic to be used with any Axway Open Docs product documentation. If you need details specific to the  product documentation to which you want to contribute, such as the GitHub repository and Netlify URLs, contact an Axway representative.
 
 ## Before you start
 
