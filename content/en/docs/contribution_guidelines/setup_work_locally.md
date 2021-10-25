@@ -72,7 +72,7 @@ Press Enter when prompted for a path and a passphrase. You can find more detaile
 
 You have two options to clone the the Axway repository to your local machine:
 
-1. Clone the Axway repository directly. This requires that you have write permissions on the repository to make any changes.
+1. Clone the Axway repository directly. Contact an Axway representative for the URL. This requires that you have write permissions on the repository to make any changes.
 2. Fork (make a copy) of the Axway repository in your personal GitHub account and clone the fork. To fork the repository, follow the steps in [Fork a repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo).
 
 To clone the Axway repository directly, enter the following commands in WSL:

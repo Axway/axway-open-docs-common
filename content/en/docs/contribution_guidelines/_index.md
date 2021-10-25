@@ -20,7 +20,7 @@ Before you can contribute, you must:
 * Create a GitHub account.
 * Sign the [Axway Contributor License Agreement (CLA)](https://cla.axway.com/) using your GitHub account email. This is required just once and it should only take a few minutes.
 * Read this page in its entirety.
-* Familiarize yourself with the [Markdown guidelines](/docs/contribution_guidelines/writing_markdown/) and [best practices for developer documentation](/docs/contribution_guidelines/bestpracticedevdoc/).
+* Familiarize yourself with the [Markdown guidelines](/docs/contribution_guidelines/writing_markdown/) and [Sync or delete an outdated fork before contributing](/docs/deleting_a_repository).
 
 {{< alert title="Caution" color="warning">}}
 All contributions to this project are public, which means that they are accessible to anyone on the Internet. This includes content in pull requests that are not yet merged or published.
@@ -45,13 +45,13 @@ Finally, if you cannot make a direct contribution, but want to report an issue w
 
 ## Option 1 - Edit on GitHub
 
-All the documentation on this website is written in Markdown. The textual content is stored in the `/content/en/docs/` folder, and the images, in the `/static/Images/` folder.
+All the documentation on this website is written in Markdown. The textual content is stored in the `/content/en/docs/` folder and the images are stored in the `/static/Images/` folder.
 
 {{< alert title="Note" color="primary" >}}If you have previously contributed to this project, your fork might be out of sync (behind) the repository where you created your fork. It is best practice to [sync or delete an outdated fork](/docs/contribution_guidelines/deleting_a_repository/) before making a new contribution.{{< /alert >}}
 
 To edit an existing page:
 
-1. Click **Edit on GitHub** on the upper right corner of the page.
+1. Click **Edit on GitHub** on the upper right corner of the Netlify page. Contact an Axway representative for the URL.
 2. Click **Fork this repository** to create a copy ([fork](https://help.github.com/en/articles/fork-a-repo)) of the Axway repository in your GitHub account. This allows you to propose changes to a repository that you don't have write access to.
 3. Make your changes to the page in the GitHub Markdown editor.
 
@@ -81,7 +81,7 @@ Use the Netlify CMS user interface to easily edit or create pages in a WYSIWYG e
 
 To edit an existing page:
 
-1. Click **Edit on Netlify CMS** on the upper right corner of the page.
+1. Click **Edit on Netlify CMS** on the upper right corner of the Netlify page. Contact an Axway representative for the URL.
 2. Sign in to Netlify CMS using your GitHub account.
 3. Click **Fork the repo** to fork (create a copy) of the Axway repository in your GitHub account.
 
@@ -112,7 +112,7 @@ Use the Netlify CMS **Workflow** view to easily keep track of the pages you have
 
 To make further changes to a page, for example, you noticed a typo:
 
-1. Click **Edit on Netlify CMS** on the upper right corner of any page, and then navigate to the Workflow menu.
+1. Click **Edit on Netlify CMS** on the upper right corner of any Netlify page, and then navigate to the Workflow menu. Contact an Axway representative for the URL.
 2. If the page was already sent for review, drag it from the **In Review** column to the **Drafts** column. This lets the reviewer know that you are still working on the page.
 
     If the page is not listed in the **In Review** column, then it has been merged already and you will need to create a new PR to make further changes. See [Edit an existing page](#edit-an-existing-page).
@@ -128,7 +128,7 @@ If you notice pages in the **Draft** column of the **Workflow** view that you ar
 
 To create a new page:
 
-1. Click **Edit on Netlify CMS** on the upper right corner of any page, and then navigate to the Contents menu.
+1. Click **Edit on Netlify CMS** on the upper right corner of any Netlify page, and then navigate to the Contents menu. Contact an Axway representative for the URL.
 2. Using the left navigation menu, find the section where you want to create the new page.
 3. Click **New page in... section** to create a new page in this section.
 
@@ -154,16 +154,16 @@ If you find an issue or problem in the documentation that you don't know how to 
 When creating a documentation issue, provide as much detail as you can. For example:
 
 * Is it missing important information?
-* Does it contain errors or inaccuracies?
+* Does it contain errors or it inaccuracies?
 * Is it unclear or hard to follow?
 * Is it missing examples?
-* Does it contain a broken link or broken image link?
+* Does it contain a broken text or image link?
 
 The more details you provide, the more helpful the issue, and the faster we can prioritize and fix it.
 
 To create a documentation issue:
 
-1. Click **Create documentation issue** on the upper right corner of any page. You are redirected to GitHub and asked to sign in with your GitHub account.
+1. Click **Create documentation issue** on the upper right corner of any Netlify page. You are redirected to GitHub and asked to sign in with your GitHub account. Contact an Axway representative for the URL.
 2. Add a title to the issue. The title of the issue is completed by default with the name of the page, but you can edit it to make it more helpful.
 3. Provide detailed information about the problem. A template is provided.
 
