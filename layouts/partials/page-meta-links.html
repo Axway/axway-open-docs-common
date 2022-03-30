@@ -27,7 +27,6 @@
 {{ end }}
 {{ $cmsURL := printf "%s/admin/#/edit/%s/%s" $baseURL $cms_collection .File.BaseFileName }}
 <a href="{{ $cmsURL }}" target="_blank"><i class="fas fa-columns fa-fw"></i> {{ T "post_edit_cms" }}</a>
-{{ $issuesURL := printf "%s/issues/new?template=documentation-issue-template.md&title=%s" $gh_repo (htmlEscape $.Title )}}
 </div>
 {{ end }} <!-- end of if repo -->
 {{ end }} <!-- end if path -->
