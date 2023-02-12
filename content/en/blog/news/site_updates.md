@@ -22,4 +22,4 @@ The [guidelines for contributing to the docs](/docs/contribution_guidelines/) ha
 
 ## Site search
 
-We have added the ability to search all of the documentation on Axway-Open-Docs. The search functionality is provided free by [Algolia DocSearch](https://community.algolia.com/docsearch/) and their crawler runs every 24 hours so the search is always up to date. To search, just enter a term in the **Search this site** box in the toolbar and click one of the search results in the drop-down list.
+We have added the ability to search all of the documentation on Axway-Open-Docs. The search functionality is provided free by [Algolia DocSearch](https://docsearch.algolia.com) and their crawler runs every 24 hours so the search is always up to date. To search, just enter a term in the **Search this site** box in the toolbar and click one of the search results in the drop-down list.
